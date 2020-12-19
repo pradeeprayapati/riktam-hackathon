@@ -19,7 +19,9 @@ if($num==1){
 	$_SESSION['username']=$name;
 header('location: home.php');
 }else{
-header('location: login.php');
+echo"Invalid Credentials";
+echo"<div><button type='submit' class='btn btn-primary'><a href='login.php'>Back</a></button><div>";
+
 }
 
 ?>

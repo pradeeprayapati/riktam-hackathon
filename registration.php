@@ -17,10 +17,12 @@ $result=mysqli_query($con,$s);
 $num=mysqli_num_rows($result);
 
 if($num==1){
-echo"Username Already Taken";
+echo"Username Already Exists";
+echo"<div><button type='submit' class='btn btn-primary'><a href='login.php'>Back</a></button><div>";
 }else{
 $reg="insert into usertable(name,password) values('$name','$pass')";
 mysqli_query($con,$reg);
 echo"Registration Successful";
+echo"<div><button type='submit' class='btn btn-primary'><a href='login.php'>Back</a></button><div>";
 }
 ?>

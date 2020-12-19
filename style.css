@@ -1,5 +1,5 @@
 body{
-background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(image.jpg);
+background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5));
 background-size: cover;
 background-position: center;
 }
@@ -21,7 +21,7 @@ background-color: trasparent !important;
 }
 a{
 	color: #fff ! important;
-	margin-top:200px ! important;
+	margin-top:0px ! important;
 	text-align: center;
 	text-transform:uppercase;
 }

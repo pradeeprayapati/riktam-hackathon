@@ -3,7 +3,13 @@
    <title> User Login and Registration </title>
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   
+   <style type="text/css">
+   body{
+	   background: url(loginpage-image.jpg);
+	   background-size: cover;
+       background-position: center;
+   }
+   </style>
 </head>
 <body>
 <div class="container">
